@@ -11,10 +11,20 @@
     */
 
     //ENTRADA
-
-
+    const turno = Number(prompt(`Informe em que turno trabalha (1)Turno 1, (2)Turno 2, (3)Turno 3`).trim());
     //PROCESSAMENTO
-
+    if(turno == 1){
+        alert(`Horário de trabalho das 05:15 - 13:15`);
+    }
+    else if(turno == 2){
+        alert(`Horário de trabalho das 13:15 - 22:15`);
+    }
+    else if(turno == 3){
+        alert(`Horário de trabalho das 22:15 - 05:15`);
+    }
+    else{
+        alert(`Caracter invalido!`);
+    }
 
     //SAÍDA
 

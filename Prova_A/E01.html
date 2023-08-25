@@ -8,13 +8,14 @@
     */
 
     //ENTRADA
-
+    const valorApartamento = Number(prompt(`Informe o valor total do apartamento`).trim());
 
     //PROCESSAMENTO
-
-
+    let cal1 = valorApartamento - 50000
+    let cal2 = cal1 / 48
+    let cal3 = cal2 * 0.25 + cal2
     //SAÍDA
-
+    alert(`Valor total financiado: R$ ${cal1.toFixed(2).replace(".",",")}. Valor de cada parcela: R$ ${cal3.toFixed(2).replace(".",",")}.`)
 
     /*
     Para testar:

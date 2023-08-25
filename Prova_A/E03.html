@@ -10,11 +10,16 @@
     */
 
     //ENTRADA
-
-
+    const dias = Number(prompt(`Informe por quantos dias vc ficará com o onibus:`).trim());
     //PROCESSAMENTO
-
-
+    let custoDia = dias * 400
+    let custoDia2 = dias * 350
+    if(dias <= 3){
+        alert(`O custo diario nao sofrerá alterações o preço que sera cobrado pelo aluguel é de R$${custoDia.toFixed(2).replace(".",",")}.`)
+    }
+    else if(dias > 3){
+        alert(`O custo diario sofrerá alterações diminuirá para R$ 350. Preço que sera cobrado pelo aluguel é de R$${custoDia2.toFixed(2).replace(".",",")}.`)
+    }
     //SAÍDA
 
 
