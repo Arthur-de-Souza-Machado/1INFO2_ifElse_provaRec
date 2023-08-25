@@ -11,7 +11,7 @@ Para realizar a prova, não esqueça de clonar o repositório, seguindo os segui
 - Clicar no botão CODE, que há aqui acima, no lado direito
 - Selecionar a opção **HTTPS**
 - Copiar a URL que há no input abaixo ou o endereço completo citado abaixo
-  - https://github.com/ldmfabio/1INFO1_ifElse_provaRec.git
+  - https://github.com/ldmfabio/1INFO2_ifElse_provaRec.git
 
 ### **Abra o VSCode**
 
